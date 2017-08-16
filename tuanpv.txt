@@ -1,5 +1,6 @@
 ﻿bước 1 : vào thư mục của php 7.0.8
 bước 2: chạy lệnh  which openssl để lấy đường link của openssl 
 bước 3: ./configure --with-openssl --with-php-config=/usr/bin/openssl
-bước 4: systemctl restart php-fpm
+bước 4: make install
+bước 5: systemctl restart php-fpm
 success :))) 
